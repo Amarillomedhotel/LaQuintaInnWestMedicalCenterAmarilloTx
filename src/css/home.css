@@ -13,11 +13,11 @@
   }
 }
 .content-wrapper {
-  min-height: 500px;
+  min-height:630px;
 }
 main {
   display: block;
-  padding: 0 0 60px;
+
 }
 @media only screen and (min-width: 768px) {
   .content-wrapper .header-block {
@@ -100,7 +100,7 @@ main {
     .reviews_main_container.small_block
     .panel_container
     .panel_caption {
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -114,14 +114,7 @@ main {
     width: 90%;
   }
 }
-@media only screen and (min-width: 768px) {
-  .reviews_main_container.small_block
-    .panel_block
-    .panel_container
-    .panel_caption {
-    margin-bottom: 40px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .reviews_main_container.small_block
     .panel_block
@@ -145,6 +138,7 @@ main {
 }
 .btn_block {
   text-align: center;
+  padding: 0px 0;
 }
 .reviews_main_container.small_block .panel_container .btn_block a {
   max-width: 315px;
@@ -177,7 +171,8 @@ a .button2 {
     border-radius: 4px;
 }
 .reviews_main_container.small_block .panel_container .btn_block a {
-  margin-top: 10px;
+ margin-top: 20px;
+
 }
 .reviews_main_container.small_block .sub_header {
   text-align: center;
@@ -187,7 +182,25 @@ a .button2 {
   color: gray;
   line-height: 2;
   letter-spacing: 1px;
-  margin-top: -12px;
+  
+}
+#review_text{
+    resize: none;
+    width: 100%;
+    height:140px;
+    padding: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    &:focus {
+        border-color: blue;
+    }
+    &::placeholder {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
 }
 .content-wrapper .info_block {
   display: table-cell;
@@ -359,6 +372,7 @@ img {
 .form-horizontal .form-group {
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 #review_thank_you {
   margin-bottom: 10px;
@@ -415,7 +429,14 @@ img {
   background: none repeat scroll 0 0 rgb(224, 7, 7);
   color: #ffffff;
 }
-
+.traveling {
+    background: none repeat scroll 0 0 #87d14e;
+    color: #ffffff;
+  }
+  .hotel_booking {
+    background: none repeat scroll 0 0 #dd45eb;
+    color: #ffffff;
+  }
 .rating {
   margin: auto;
   padding: 0;
@@ -490,3 +511,9 @@ img {
     font-family: "Roboto Slab", sans-serif;
     
 }
+
+* {
+    box-sizing: border-box;
+}
+
+
