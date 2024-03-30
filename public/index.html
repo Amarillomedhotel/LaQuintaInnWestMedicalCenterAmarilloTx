@@ -54,11 +54,11 @@
                         <div class="reviews_main_container small_block" bis_skin_checked="1">
                             <div class="panel_block" bis_skin_checked="1">
                                 <main class="panel_container">
-                                    <section id="determination_check_block">
+                                    <section id="determination_check_block " >
                                         <p class="panel_caption">
                                             <span>Would you recommend us?</span>
                                         </p>
-                                        <div class="btn_block" bis_skin_checked="1">
+                                        <div class="btn_block" bis_skin_checked="1" >
                                             <a id="determination_yes"><button
                                                     class="btn  btn-success btn-large button1 "
                                                     style="cursor: pointer;">Yes</button></a>
@@ -68,7 +68,7 @@
                                         </div>
                                     </section>
 
-                                    <section id="inconvenient_block" hidden="">
+                                    <section id="inconvenient_block"  hidden="">
                                         <div class="panel_container" id="inconvenient_box" bis_skin_checked="1">
                                             <p class="panel_caption">We apologize your experience was not great. How can
                                                 we improve?</p>
@@ -83,35 +83,23 @@
                                                 border-radius: 5px; 
                                                 border-color: transparent; 
                                                  cursor: pointer;"
-                                                 onclick="SendMail()" >Send</button>
+                                                 onclick="SendMail()" class="buttonclick" >Send</button>
                                             </div>
                             </div>
-                            <div id="review_thank_you" class="hidden" hidden="hidden" bis_skin_checked="1">
-                                <div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: flex;"
-                                    bis_skin_checked="1">
-                                    <div class="swal2-success-circular-line-left"
-                                        style="background-color: rgb(255, 255, 255);" bis_skin_checked="1">
-                                    </div><span class="swal2-success-line-tip"></span> <span
-                                        class="swal2-success-line-long"></span>
-                                    <div class="swal2-success-ring" bis_skin_checked="1"></div>
-                                    <div class="swal2-success-fix" style="background-color: rgb(255, 255, 255);"
-                                        bis_skin_checked="1">
-                                    </div>
-                                    <div class="swal2-success-circular-line-right"
-                                        style="background-color: rgb(255, 255, 255);" bis_skin_checked="1">
-                                    </div>
-                                </div>
-                                <div class="thank_you_msg" bis_skin_checked="1">Thanks!</div>
-                                <div class="address_wrapper" bis_skin_checked="1">
-                                    We truly value your opinion and appreciate your feedback.<br><br>
-                                    Have a great day, The La Quinta Inn by Wyndham Amarillo West Medical
-                                    Center team.
-                                </div>
+                            <div class="thanks" id="thanksDiv" style="display: none;">
+                            <div class="down">
+                                <img src="../src/assets/success.svg" alt="">
+                                <h3>Thanks!</h3>
+                                <h4>We truly value your opinion and appreciate your feedback.
+                                </h4>
+                                <h4>Have a great day, The La Quinta Inn by Wyndham Amarillo West Medical Center team.</h4>
+                            </div>
                             </div>
                         </div>
 
-
-                                                    <section id="review_sources_block" hidden="">
+                    
+          
+                          <section id="review_sources_block" hidden="">
                                 <!--<p class="panel_caption"><span>How was your experience?</span></p>-->
                                 <div class="sub_header" bis_skin_checked="1">Thank you for recommending us to
                                     family and friends. Please write a review on one of the following sites.
