@@ -7,13 +7,13 @@
 @media only screen and (min-width: 768px) {
   .content-wrapper {
     background: #fff;
-    margin: 30px auto 0;
+    margin: 60px auto 0;
     width: 45%;
     height: auto;
   }
 }
 .content-wrapper {
-  min-height: 630px;
+    min-height: 30px;
 }
 main {
   display: block;
@@ -21,7 +21,8 @@ main {
 @media only screen and (min-width: 768px) {
   .content-wrapper .header-block {
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    
     width: 100%;
     padding: 0;
   }
@@ -63,15 +64,10 @@ main {
     padding: 20px 30px;
   }
 }
-@media only screen and (min-width: 768px) {
-  .full#reviews_container {
-    padding: 0 40px;
-  }
-}
 
 .full {
   height: 100%;
-  padding: 0 15px;
+  
 }
 @media only screen and (min-width: 768px) {
   .content-wrapper .full .reviews_main_container.small_block {
@@ -99,7 +95,7 @@ main {
     .reviews_main_container.small_block
     .panel_container
     .panel_caption {
-    margin-bottom: 40px !important;
+      margin-top: 50px !important ;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -120,8 +116,8 @@ main {
     .panel_container
     .panel_caption {
     font-size: 24px;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 35px;
+    
   }
 }
 .reviews_main_container.small_block .panel_container .panel_caption {
@@ -137,7 +133,7 @@ main {
 }
 .btn_block {
   text-align: center;
-  padding: 0px 0;
+  padding: 10px 0 40px 0;
 }
 .reviews_main_container.small_block .panel_container .btn_block a {
   max-width: 315px;
@@ -269,10 +265,9 @@ a .button2 {
 }
 .reviews_main_container.small_block .sub_header {
   text-align: center;
-  margin-bottom: 25px;
   font-size: 16px;
   line-height: normal;
-  margin-top: -12px;
+margin-top: 20px;
 }
 #review_sources_btn {
   display: inline-block;
@@ -512,7 +507,7 @@ img {
 .thanks {
   .down {
     text-align: center;
-    padding: 10px;
+    padding: 60px 0 30px 0;
     img {
       width: 70px;
     }
