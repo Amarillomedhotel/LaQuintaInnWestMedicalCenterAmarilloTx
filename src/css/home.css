@@ -13,11 +13,10 @@
   }
 }
 .content-wrapper {
-  min-height:630px;
+  min-height: 630px;
 }
 main {
   display: block;
-
 }
 @media only screen and (min-width: 768px) {
   .content-wrapper .header-block {
@@ -159,20 +158,19 @@ button.btn {
   box-shadow: none !important;
 }
 a .button1 {
-    background-color: #1dc9b7 !important;
-    border-color: transparent;
-    color: white;
-    border-radius: 4px;
+  background-color: #1dc9b7 !important;
+  border-color: transparent;
+  color: white;
+  border-radius: 4px;
 }
 a .button2 {
-    background-color: #fd397a!important;
-    border-color: transparent;
-    color: white;
-    border-radius: 4px;
+  background-color: #fd397a !important;
+  border-color: transparent;
+  color: white;
+  border-radius: 4px;
 }
 .reviews_main_container.small_block .panel_container .btn_block a {
- margin-top: 20px;
-
+  margin-top: 20px;
 }
 .reviews_main_container.small_block .sub_header {
   text-align: center;
@@ -182,25 +180,23 @@ a .button2 {
   color: gray;
   line-height: 2;
   letter-spacing: 1px;
-  
 }
-#review_text{
-    resize: none;
-    width: 100%;
-    height:140px;
-    padding: 10px;
-    border: 1px solid gray;
-    box-sizing: border-box;
-    outline: none;
-    border-radius: 5px;
-    &:focus {
-        border-color: blue;
-    }
-    &::placeholder {
-        font-size: 15px;
-        font-weight: 500;
-    }
-
+#review_text {
+  resize: none;
+  width: 100%;
+  height: 140px;
+  padding: 10px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  &:focus {
+    border-color: blue;
+  }
+  &::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }
 .content-wrapper .info_block {
   display: table-cell;
@@ -239,7 +235,7 @@ a .button2 {
   line-height: 16px;
 }
 .stars_block .avgstars_block {
-    margin-top: 5px ;
+  margin-top: 5px;
 }
 .stars_block .avgstars_block .rating_val {
   padding: 1px 5px 0;
@@ -262,7 +258,6 @@ a .button2 {
 
 .header_box .review_count {
   margin-left: 5px;
- 
 }
 .header_box .all-sources,
 .header_box .review_count {
@@ -288,11 +283,10 @@ a .button2 {
   width: auto;
 }
 #review_sources_btn a {
-    text-decoration: none ;
+  text-decoration: none;
 }
 #review_sources_btn > a:hover {
-  text-decoration: none ;
-  
+  text-decoration: none;
 }
 #review_sources_btn > a > button {
   border-radius: 4px;
@@ -430,13 +424,13 @@ img {
   color: #ffffff;
 }
 .traveling {
-    background: none repeat scroll 0 0 #87d14e;
-    color: #ffffff;
-  }
-  .hotel_booking {
-    background: none repeat scroll 0 0 #dd45eb;
-    color: #ffffff;
-  }
+  background: none repeat scroll 0 0 #87d14e;
+  color: #ffffff;
+}
+.hotel_booking {
+  background: none repeat scroll 0 0 #dd45eb;
+  color: #ffffff;
+}
 .rating {
   margin: auto;
   padding: 0;
@@ -506,18 +500,14 @@ img {
 }
 
 .fonts {
-    font-size: 15px !important;
-    font-weight: 500 !important;
-    font-family: "Roboto Slab", sans-serif;
-    
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-
-
 
 .thanks {
   .down {
@@ -530,7 +520,10 @@ img {
       font-size: 28px;
       font-weight: 400;
       color: #191919;
-      
+      @media (max-width:500px) {
+        font-size: 22px;
+        
+      }
     }
     h4 {
       font-size: 20px;
@@ -539,3 +532,8 @@ img {
     }
   }
 }
+
+.buttonclick{
+  &:hover {
+  background-color: #6394e7 !important;
+}}
