@@ -1,5 +1,11 @@
 
 document.getElementById("determination_no").addEventListener("click", function () {
+    document.getElementById("review_sources_block_1").style.display = "block";
+    document.getElementById("determination_check_block ").style.display = "none";
+});
+
+document.getElementById("determination_1").addEventListener("click", function () {
+    document.getElementById("review_sources_block_1").style.display = "none"; // Hide Section 1
     document.getElementById("inconvenient_block").style.display = "block";
     document.getElementById("determination_check_block ").style.display = "none";
 });
@@ -27,8 +33,6 @@ function SendMail() {
 
 
 }
-
-
 
 
 
